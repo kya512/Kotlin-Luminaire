@@ -1,0 +1,4 @@
+package Ampoule
+
+class AmpouleLed {
+}
