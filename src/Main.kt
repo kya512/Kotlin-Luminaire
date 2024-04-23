@@ -1,8 +1,5 @@
 fun main() {
     val eclairage = Luminaire();
-    /**
-     * Cycles d'éclairage et d'extinction d'une ampoule
-     */
     var nbCycles = 0;
     println("Etat du luminaire :")
     do{
@@ -13,5 +10,6 @@ fun main() {
         println(eclairage.toString());
         nbCycles ++;
     }while (nbCycles < 1000 && eclairage.etat() != -1);
+
     println("nombre de cycles "+nbCycles);
 }
